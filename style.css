@@ -1,0 +1,173 @@
+body {
+    /*margem padrao do navegador dara para autera usando ela*/
+    margin: 0;
+
+    /*Cor de fundo*/
+    background-color: rgb(2, 63, 2);
+
+    font-family: Arial, sans-serif;
+
+    /*Cor de texto*/
+    color: white;
+}
+
+header {
+    background-color: rgb(2, 63, 2);
+
+    padding: 40px;
+
+    text-align: center;
+
+}
+header h1 {
+    font-size: 45px;
+
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #222222;
+    padding: 20px;
+    text-align: center;
+    /*Mantem a possisao mesmo no rolamento*/
+    position: sticky;
+
+    /*posisao vai ser no topo*/
+    top: 0;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 15px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    Color: rgb(233, 233, 233);
+}
+
+/*Conteudo Principal*/
+
+main {
+
+    max-width: 1000xp;
+
+    margin: auto;
+
+    padding: 20px;
+
+}
+
+/*seçoes*/
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    color: rgb(255, 255, 255);
+
+    border-bottom: 2px solid rgb(252, 250, 250);
+
+    padding-bottom: 10px;
+}
+
+.banner img {
+
+    width: 200;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.personagem {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: #222222;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    width: 250px;
+
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: rgb(2, 63, 2);
+    transform: scale(1.05);
+}
+
+.botao {
+    background-color: rgb(2, 63, 2);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: rgb(2, 63, 2);
+}
+
+footer {
+    background-color: #222222;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+tabela-container {
+   overflow: auto;
+}
+
+table{
+    border-collapse: collapse;
+    min-width: 650px;
+    width: 100%;
+    background-color: #027c0c69;
+}
+
+caption{
+    color:rgb(255, 254, 254);
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #fcfcfc;
+    padding: 14px;
+    text-align: left;
+}
+
+th{
+    background-color: #197203;
+}
+
+tbody tr:nth-chlid(even){
+    background-color: #f3f2f2;
+}
